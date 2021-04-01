@@ -15,7 +15,7 @@ from mininet.examples.linuxrouter import LinuxRouter
 from mininet.link import TCLink
 from mininet.topo import Topo
 from mininet.log import setLogLevel, info
-from mininet_iperf_new import convertSize, sampleTBFBacklog, sampleRTT
+from mininet_iperf import convertSize, sampleTBFBacklog, sampleRTT
 import multiprocessing
 import subprocess
 import time
